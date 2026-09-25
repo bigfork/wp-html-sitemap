@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ruleset name="Bigfork HTML Sitemap">
+    <arg name="extensions" value="php"/>
+    <arg value="-colors"/>
+    <arg value="ns"/>
+
+    <file>src</file>
+    <file>tests</file>
+    <file>html-sitemap.php</file>
+    <file>uninstall.php</file>
+
+    <rule ref="PSR12">
+        <exclude name="Generic.Files.LineLength"/>
+    </rule>
+</ruleset>

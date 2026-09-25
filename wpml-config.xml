@@ -1,0 +1,8 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="copy">_bf_html_sitemap_exclude</custom-field>
+    </custom-fields>
+    <custom-term-fields>
+        <custom-term-field action="copy">_bf_html_sitemap_exclude</custom-term-field>
+    </custom-term-fields>
+</wpml-config>

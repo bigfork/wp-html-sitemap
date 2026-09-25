@@ -1,0 +1,47 @@
+{
+  "name": "bigfork/wp-html-sitemap",
+  "type": "wordpress-plugin",
+  "description": "Configurable HTML sitemap for WordPress, with SEO plugin aware noindex exclusion and multilingual support",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "wordpress",
+    "sitemap",
+    "html-sitemap",
+    "seo"
+  ],
+  "authors": [
+    {
+      "name": "Bigfork Limited",
+      "email": "hello@bigfork.co.uk"
+    }
+  ],
+  "require": {
+    "php": "^8.3",
+    "composer/installers": "^2"
+  },
+  "require-dev": {
+    "brain/monkey": "^2.6",
+    "phpunit/phpunit": "^11",
+    "squizlabs/php_codesniffer": "^3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bigfork\\HtmlSitemap\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Bigfork\\HtmlSitemap\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit",
+    "lint": "phpcs"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    },
+    "sort-packages": true
+  }
+}
