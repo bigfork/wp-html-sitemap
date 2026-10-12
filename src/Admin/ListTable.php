@@ -85,7 +85,7 @@ final readonly class ListTable
             '<span class="bf-html-sitemap-flag" data-excluded="%d"></span><span class="dashicons %s" aria-hidden="true"></span> %s',
             (int) $excluded,
             $reason === null ? 'dashicons-yes' : 'dashicons-hidden',
-            esc_html($reason ?? __('Shown', 'bf-html-sitemap')),
+            esc_html($reason ?? __('Included', 'bf-html-sitemap')),
         );
     }
 
